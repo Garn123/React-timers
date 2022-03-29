@@ -1,0 +1,29 @@
+@import './components/DigitalClock.scss';
+@import './components/StopWatch.scss';
+@import './components/CountDown.scss';
+
+body {
+  background-color: #E2D784;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.selectors {
+
+    button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 18px;
+      color: #E2D784;
+      background-color: rgba(6, 44, 48, 0.9);
+      cursor: pointer;
+    }
+}
+

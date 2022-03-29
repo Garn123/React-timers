@@ -1,0 +1,31 @@
+.stopwatch {
+    background-color: rgba(6, 44, 48, 0.9);
+    margin: 100px;
+    padding: 30px 100px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 5px #062C30;
+        h2 {
+            font-size: 120px;
+        }
+        
+        .stopwatch__timer {
+            span {
+                font-size: 120px;
+                color: #E2D784;
+            }
+        }
+
+        .stopwatch__buttons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+
+            button {
+                margin: 7px 10px;
+                padding: 8px 12px;
+                border-radius: 10px;
+                background-color: #05595B;
+                color: white;
+            }
+        }
+}
